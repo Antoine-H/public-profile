@@ -1,0 +1,18 @@
+This tool relies on chromium, chromedriver and the following python3 libraries
+pytz tzlocal termcolor selenium requests beautifulsoup4 pygraphml
+
+Installation of chromium via package manager.
+
+Installation of chromedriver:
+
+wget http://chromedriver.storage.googleapis.com/2.14/chromedriver linux64.zip
+unzip chromedriver linux64.zip
+cp chromedriver /usr/bin/chromedriver
+chmod 777 /usr/bin/chromedriver
+
+Installation of python libraries:
+pip3 install pytz tzlocal termcolor selenium requests beautifulsoup4 pygraphml
+
+
+Example: `python3 fb.py -user facebook username`
+
